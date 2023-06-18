@@ -1,17 +1,35 @@
 # AERO
-Modular Air Quality Monitoring System
 
-# About the Project
-
-IoT-based modular air quality monitoring system as the name suggests is a project based on IoT(Internet of Things). There are more than 10 gas sensors that can be incorporated into this project, detecting the air quality of the immediate surrounding. It can see a huge range of harmful gases if they cross their permissible limits. It is made modular, which makes it customisable. Customers can use any sensor according to their convenience and need. This feature makes it pocket friendly. A web application will be there where the user will be given the option to choose the sensor which was bought, accordingly, the unique code will be updated in the user’s system and server space will be allocated, the data can be tracked using the linked smartphone from the comfort of our homes. A GPS module will be installed which will give us the live data of the location, thus if any danger is detected then some immediate help can be sent. This can be used in places prone to gas leakage like petrol pumps, pesticide plants, chemical factories, industries and even in homes. 
+The air we breathe plays a crucial role in our overall well-being, and the quality of the air is directly linked to our health. However, rapid industrialization, urbanization, and various human activities have led to a significant increase in air pollution levels. To address this issue and empower individuals with the ability to monitor and analyze the air quality in their immediate surroundings, we have developed an innovative project - an IoT-based modular air quality monitoring system. 
 
 ## OBJECT OF INVENTION
 
-The IoT-based air quality monitoring system makes an interwoven network of devices that enables us to send timely help to that specific location. It is modular, thus very flexible and handy as it is customizable and portable. This gives a real-time analysis of the immediate surrounding of the machine. This device is also very reasonable thus without giving loads on the pockets of the common public.
+The primary objective of this project is to create a user-friendly, affordable, and portable solution that enables real-time analysis and monitoring of air quality. By leveraging IoT technology and modular sensor components, our system allows users to customize their monitoring setup and obtain accurate measurements of various atmospheric components.
 
-## A SUMMARY OF INVENTION
+## Features
+The project incorporates several key features that set it apart from existing air monitoring systems:
 
-IoT-based modular air quality monitoring system is a product that enhances the connectivity of this device with our smartphones very easily. We can control or rather analyze the real-time immediate surrounding air quality using our phones. The product is made modular, which gives the user the scope to use sensor modules as per their needs. They may use specific sensors according to their surroundings. The sensors once plugged in, the users can choose the port name from the web application. According to the port name and the sensor used the system will work and store the proper data in the server space allocated for that particular user for a considerable amount of time like one month. We have a built-in temperature and humidity sensor, if the user does not buy any sensor, then they can choose to see the temperature and the humidity only.
+#IoT Connectivity:
+The system is designed to establish a seamless connection between the monitoring device and users' smartphones. This connectivity enables users to remotely monitor air quality, receive timely notifications, and access historical data.
+
+#Modularity:
+Our device adopts a modular approach, providing users with the flexibility to select and use specific sensor modules based on their requirements. This allows for a customizable monitoring experience tailored to different environments and pollutants of interest.
+
+#Sensor Accuracy:
+The project supports the use of up to 16 sensor modules simultaneously, enhancing the accuracy of measurements. Users can select from a range of gas sensors, including those for ozone, methane, butane, carbon monoxide, LPG, hydrogen sulfide, and hydrogen, among others.
+
+#Portability:
+Unlike traditional air monitoring systems that are often bulky and stationary, our project focuses on portability. The compact size of our device enables users to easily transport and install it in various locations, expanding its accessibility and usability.
+
+#Web Application:
+We have developed a user-friendly web application that allows individuals to configure their sensor modules. Users can choose specific ports on the main hub to connect their desired sensors, enabling a seamless integration process. The web application also provides graphical representations and gas meters to visualize the air quality data collected by the system.
+
+#Data Storage:
+To ensure comprehensive data analysis and historical tracking, we provide server space for users to store air quality data collected by the system. Users can access this data for a considerable amount of time, enabling long-term analysis and trend identification.
+
+#Alert System:
+Our monitoring system is equipped with an alert system that sends audio notifications and emails to users when hazardous gases exceed their permissible limits. This immediate notification helps users take precautionary measures, evacuate if necessary, and respond promptly to potential dangers.
+
 
 ![alt text](https://i.imgur.com/F7ZHRoy.png)
 FIG1: Here in this diagram, we show our main HUB and the modules connected to it. Our HUB contains ESP8266 Node MCU and 16 analog Multiplexer which allows us to connect our 16 modules to our main HUB.
@@ -23,29 +41,27 @@ FIG2: It represents our Block Diagram, that power flows from the HUB to the modu
 FIG3: It shows our module which is used to sense our atmospheric gases. It contains a USB port which can be put into our HUB.
 ![alt text](https://i.imgur.com/LXvbsaP.png)
 FIG4: It displays our mobile application, pins, notification setup, email setup and module data.
-## CLAIMS
 
-```python
-1.	Internet of Things-based product which provides easy connectivity with the smartphone. 
+## Benefits and Applications
+The IoT-based modular air quality monitoring system offers numerous benefits and finds applications in various sectors, including:
 
-2.	Modular approach which makes it customisable.
+#Public Safety:
+The system provides real-time analysis of air quality, making it invaluable for people living near factories, petroleum stations, or in areas prone to high pollution levels. By detecting harmful gases and sending timely alerts, it helps safeguard individuals from gas poisoning and potential health risks.
 
-3.	the Huge number of sensors up to 16 sensors can be used together at a time thus providing accuracy.
+#Environmental Monitoring:
+The project contributes to environmental conservation by promoting awareness and understanding of air pollution levels. It enables users to track changes in air quality over time, aiding efforts to identify pollution sources, implement mitigation strategies, and work towards cleaner environments.
 
-4.	This product is portable as the size of this device is smaller than the cliched air monitors.
+#Occupational Safety:
+The system can be utilized in occupational settings where workers may be exposed to hazardous gases. By monitoring and alerting against the presence of harmful substances, it enhances workplace safety measures, protecting employees from potential health hazards.
 
-5.	Web application usage where the user will have the freedom to choose any port according to their wish in which they want to plug in the sensor. 
-The web application will work accordingly then.
-
-6.	Providing server space for storing air quality data for a considerable amount of time.
-
-7.	Send an audio notification and an email when the hazardous gases cross their permissible limits. 
-
-```
+#Residential Applications:
+Individuals leaving their homes unattended for extended periods can utilize the system to monitor the air quality inside their residences. This helps ensure a healthy living environment, detect any gas leakage issues, and take necessary actions to prevent accidents or property damage.
 
 ## INVENTORS
-
 1)	Uday Sankar Mukherjee
 2)	Atrij Paul
 3)	Ayantik Ray
 4)	Ayan Ghosh
+
+## Conclusion
+The IoT-based modular air quality monitoring system revolutionizes the way we analyze, monitor, and respond to air pollution. With its modular design, real-time connectivity, and user-friendly features, the project empowers individuals to make informed decisions about their surroundings. By providing accurate data, timely notifications, and historical tracking, our system aids in creating healthier environments and promoting a sustainable future.
