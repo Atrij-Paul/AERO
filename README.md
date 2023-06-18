@@ -31,16 +31,6 @@ To ensure comprehensive data analysis and historical tracking, we provide server
 Our monitoring system is equipped with an alert system that sends audio notifications and emails to users when hazardous gases exceed their permissible limits. This immediate notification helps users take precautionary measures, evacuate if necessary, and respond promptly to potential dangers.
 
 
-![alt text](https://i.imgur.com/F7ZHRoy.png)
-FIG1: Here in this diagram, we show our main HUB and the modules connected to it. Our HUB contains ESP8266 Node MCU and 16 analog Multiplexer which allows us to connect our 16 modules to our main HUB.
-Each Module is connected via a USB port and the user can put it in by their own choice. 
-On top of the HUB, there is a power chord which will power our whole Device. We require Wi-Fi to establish a connection with Our device and smartphone.
-![alt text](https://i.imgur.com/zs06XqK.png)
-FIG2: It represents our Block Diagram, that power flows from the HUB to the modules and all the information that the modules receive is sent to our Smartphones via Cloud. As a result, we get a display of the Air Quality on our smartphones.
-![alt text](https://i.imgur.com/ZavNb3g.png)
-FIG3: It shows our module which is used to sense our atmospheric gases. It contains a USB port which can be put into our HUB.
-![alt text](https://i.imgur.com/LXvbsaP.png)
-FIG4: It displays our mobile application, pins, notification setup, email setup and module data.
 
 ## Benefits and Applications
 The IoT-based modular air quality monitoring system offers numerous benefits and finds applications in various sectors, including:
